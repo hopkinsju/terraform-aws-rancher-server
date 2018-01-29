@@ -2,6 +2,14 @@
 ## Variables ##
 ###############
 
+variable "access_key" {
+  description = "AWS access key"
+}
+
+variable "secret_key" {
+  description = "AWS secret access key"
+}
+
 # Target VPC config
 variable "vpc_id" {
     description = "ID of target VPC."
